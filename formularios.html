@@ -1,0 +1,55 @@
+<head>
+
+    <title>Exercícios HTML jcdelima || Gama Academy</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Texto descritivo da página web" />
+    <meta name="author" content="Gama Academy" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+</head>
+
+<body>
+
+    <main role="main">
+        <!-- método post protege, método get expõe na URL-->
+        <form action="#" method="post">
+
+            <label for="campo1">Nome</label>
+            <input type="text" name="nome" id="campo1"/>
+
+            <label>Nome</label>
+            <input type="text" name="nome"/>
+
+            <!-- select = dropdown menu -->
+            <select name="Interesses">
+                <option value="1">Vendas</option>
+                <option value="2">Marketing</option>
+            </select>
+            <!-- fieldset = campo de seleção -->
+            <fieldset>
+
+                <legend>Interesses de Estudo</legend>
+                    <label for="campo31">Vendas</label>
+                    <input type="radio" name="interesse2" value="1" id="campo31"/>
+                    <label for="campo32">Marketing</label>
+                    <input type="radio" name="interesse2" value="2" id="campo32"/>
+
+            </fieldset>
+            <fieldset>
+
+                <legend>Interesses de Estudo 2</legend>
+                    <label for="campo41">Vendas</label>
+                    <input type="checkbox" name="interesse2" value="1" id="campo41"/>
+                    <label for="campo42">Marketing</label>
+                    <input type="checkbox" name="interesse2" value="2" id="campo42"/>
+
+            </fieldset>
+            <!-- Botão para enviar - tipo submit -->
+            <input type="submit" value="Enviar o formulário"/>
+
+        </form>
+
+    </main>
+
+</body>
